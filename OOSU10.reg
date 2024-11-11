@@ -125,9 +125,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\dmwappushservice]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\WMI\Autologger\AutoLogger-Diagtrack-Listener]
-"Start"=dword:00000000
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WMDRM]
 "DisableOnline"=dword:00000001
 
@@ -152,13 +149,6 @@ Windows Registry Editor Version 5.00
 "SiteSafetyServicesEnabled"=dword:00000000
 "SmartScreenEnabled"=dword:00000000
 "TyposquattingCheckerEnabled"=dword:00000000
-"UserFeedbackAllowed"=dword:00000000
-"AutofillCreditCardEnabled"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Notifications\Data]
-"418A073AA3BC1C75"=hex:97,01,00,00,00,00,00,00,04,00,04,00,01,00,10,03
-"418A073AA3BC1C75"=hex:98,01,00,00,00,00,00,00,04,00,04,00,01,00,11,03
-"418A073AA3BC2475"=hex:01,00,00,00,00,00,00,00,04,00,04,00,01,00,01,00
 
 ; Microsoft Edge (legacy version)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Browser]
